@@ -1,0 +1,652 @@
+2019-05-03 02:11:18,483 Factorized Autoencoder run settings:
+2019-05-03 02:11:18,483 dataset: douban
+2019-05-03 02:11:18,483 Exchangable layer pool mode: mean
+2019-05-03 02:11:18,483 Pooling layer pool mode: mean
+2019-05-03 02:11:18,484 learning rate: 0.0005
+2019-05-03 02:11:18,484 activation: <function <lambda> at 0x130e6ed90>
+2019-05-03 02:11:18,484 number of latent features: 100
+2019-05-03 02:11:18,484 maxN: 3000
+2019-05-03 02:11:18,484 maxM: 3000
+2019-05-03 02:11:18,621 From /Users/daniel/School/UIC/Course/2019 Spring/CS 582 - Information Retrieval/project/code/deep_exchangeable_tensors/sparse_util.py:142: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2019-05-03 02:11:20,965 From douban.py:213: calling reduce_logsumexp (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2019-05-03 02:11:21,005 Optimizing with adam with options: {'epsilon': 1e-06}
+2019-05-03 02:11:34,358 Training: epoch 1 took 10.8 train loss 1.609 (rec:1.143);
+2019-05-03 02:11:43,328 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 02:11:43,328 Validation: epoch 1 took 19.8 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 02:11:52,181 Training: epoch 2 took 8.8 train loss 1.609 (rec:1.143);
+2019-05-03 02:12:00,657 Validation: epoch 2 took 17.2 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 02:12:09,501 Training: epoch 3 took 8.7 train loss 1.609 (rec:1.143);
+2019-05-03 02:12:18,092 Validation: epoch 3 took 17.3 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 02:12:27,203 Training: epoch 4 took 9.0 train loss 1.609 (rec:1.143);
+2019-05-03 02:12:34,859 Validation: epoch 4 took 16.7 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 02:12:43,589 Training: epoch 5 took 8.7 train loss 1.609 (rec:1.143);
+2019-05-03 02:12:51,907 Validation: epoch 5 took 17.0 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 02:13:01,220 Training: epoch 6 took 9.2 train loss 1.609 (rec:1.143);
+2019-05-03 02:13:09,364 Validation: epoch 6 took 17.4 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 02:13:17,970 Training: epoch 7 took 8.5 train loss 1.609 (rec:1.143);
+2019-05-03 02:13:25,852 Validation: epoch 7 took 16.4 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 02:13:34,663 Training: epoch 8 took 8.7 train loss 1.609 (rec:1.143);
+2019-05-03 02:13:42,089 Validation: epoch 8 took 16.2 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 02:13:50,947 Training: epoch 9 took 8.8 train loss 1.609 (rec:1.143);
+2019-05-03 02:13:58,564 Validation: epoch 9 took 16.4 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 02:14:07,200 Training: epoch 10 took 8.5 train loss 1.609 (rec:1.143);
+2019-05-03 02:14:14,367 Validation: epoch 10 took 15.7 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 02:14:15,016 Model saved in file: scratch/checkpoints/movielens/douban_checkpt_ep_00010.ckpt
+2019-05-03 02:14:23,573 Training: epoch 11 took 8.6 train loss 1.609 (rec:1.143);
+2019-05-03 02:14:32,469 Validation: epoch 11 took 17.5 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 02:14:52,959 Factorized Autoencoder run settings:
+2019-05-03 02:14:52,960 dataset: douban
+2019-05-03 02:14:52,960 Exchangable layer pool mode: mean
+2019-05-03 02:14:52,960 Pooling layer pool mode: mean
+2019-05-03 02:14:52,960 learning rate: 0.0005
+2019-05-03 02:14:52,960 activation: <function <lambda> at 0x130f57d90>
+2019-05-03 02:14:52,960 number of latent features: 100
+2019-05-03 02:14:52,960 maxN: 3000
+2019-05-03 02:14:52,960 maxM: 3000
+2019-05-03 02:14:53,109 From /Users/daniel/School/UIC/Course/2019 Spring/CS 582 - Information Retrieval/project/code/deep_exchangeable_tensors/sparse_util.py:142: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2019-05-03 02:14:56,370 From douban.py:213: calling reduce_logsumexp (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2019-05-03 02:14:56,414 Optimizing with adam with options: {'epsilon': 1e-06}
+2019-05-03 02:15:10,113 Training: epoch 1 took 11.1 train loss 1.609 (rec:1.143);
+2019-05-03 02:15:19,890 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 02:15:19,890 Validation: epoch 1 took 20.9 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 02:15:29,180 Training: epoch 2 took 9.2 train loss 1.609 (rec:1.143);
+2019-05-03 02:15:37,165 Validation: epoch 2 took 17.2 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 02:15:45,886 Training: epoch 3 took 8.6 train loss 1.609 (rec:1.143);
+2019-05-03 02:15:54,015 Validation: epoch 3 took 16.8 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 02:16:03,610 Training: epoch 4 took 9.5 train loss 1.609 (rec:1.143);
+2019-05-03 02:16:11,626 Validation: epoch 4 took 17.5 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 02:16:20,551 Training: epoch 5 took 8.8 train loss 1.609 (rec:1.143);
+2019-05-03 02:16:30,570 Validation: epoch 5 took 18.9 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 02:16:44,179 Training: epoch 6 took 13.5 train loss 1.609 (rec:1.143);
+2019-05-03 02:16:56,444 Validation: epoch 6 took 25.8 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 02:17:10,735 Training: epoch 7 took 14.2 train loss 1.609 (rec:1.143);
+2019-05-03 02:17:22,298 Validation: epoch 7 took 25.8 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:17:02,546 Factorized Autoencoder run settings:
+2019-05-03 03:17:02,546 dataset: douban
+2019-05-03 03:17:02,546 Exchangable layer pool mode: mean
+2019-05-03 03:17:02,546 Pooling layer pool mode: mean
+2019-05-03 03:17:02,546 learning rate: 0.0005
+2019-05-03 03:17:02,546 activation: <function <lambda> at 0x130f2ed90>
+2019-05-03 03:17:02,547 number of latent features: 100
+2019-05-03 03:17:02,547 maxN: 3000
+2019-05-03 03:17:02,547 maxM: 3000
+2019-05-03 03:17:02,672 From /Users/daniel/School/UIC/Course/2019 Spring/CS 582 - Information Retrieval/project/code/deep_exchangeable_tensors/sparse_util.py:142: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2019-05-03 03:17:04,939 From douban.py:213: calling reduce_logsumexp (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2019-05-03 03:17:04,978 Optimizing with adam with options: {'epsilon': 1e-06}
+2019-05-03 03:17:17,180 Training: epoch 1 took 9.8 train loss 1.609 (rec:1.143);
+2019-05-03 03:17:24,533 Training failed
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1334, in _do_call
+    return fn(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1319, in _run_fn
+    options, feed_dict, fetch_list, target_list, run_metadata)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1407, in _call_tf_sessionrun
+    run_metadata)
+tensorflow.python.framework.errors_impl.NotFoundError: scratch/checkpoints/movielens; No such file or directory
+	 [[{{node save/SaveV2}} = SaveV2[dtypes=[DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, ..., DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT], _device="/job:localhost/replica:0/task:0/device:CPU:0"](_arg_save/Const_0_0, save/SaveV2/tensor_names, save/SaveV2/shape_and_slices, beta1_power, beta2_power, decoder/0/theta_4, decoder/0/theta_4/Adam, decoder/0/theta_4/Adam_1, decoder/0/theta_5, decoder/0/theta_5/Adam, decoder/0/theta_5/Adam_1, decoder/1/theta_0, decoder/1/theta_0/Adam, decoder/1/theta_0/Adam_1, decoder/1/theta_1, decoder/1/theta_1/Adam, decoder/1/theta_1/Adam_1, decoder/1/theta_2, decoder/1/theta_2/Adam, decoder/1/theta_2/Adam_1, decoder/1/theta_3, decoder/1/theta_3/Adam, decoder/1/theta_3/Adam_1, decoder/2/theta_0, decoder/2/theta_0/Adam, decoder/2/theta_0/Adam_1, decoder/2/theta_1, decoder/2/theta_1/Adam, decoder/2/theta_1/Adam_1, decoder/2/theta_2, decoder/2/theta_2/Adam, decoder/2/theta_2/Adam_1, decoder/2/theta_3, decoder/2/theta_3/Adam, decoder/2/theta_3/Adam_1, decoder/4/theta_0, decoder/4/theta_0/Adam, decoder/4/theta_0/Adam_1, decoder/4/theta_1, decoder/4/theta_1/Adam, decoder/4/theta_1/Adam_1, decoder/4/theta_2, decoder/4/theta_2/Adam, decoder/4/theta_2/Adam_1, decoder/4/theta_3, decoder/4/theta_3/Adam, decoder/4/theta_3/Adam_1, decoder/6/theta_0, decoder/6/theta_0/Adam, decoder/6/theta_0/Adam_1, decoder/6/theta_1, decoder/6/theta_1/Adam, decoder/6/theta_1/Adam_1, decoder/6/theta_2, decoder/6/theta_2/Adam, decoder/6/theta_2/Adam_1, decoder/6/theta_3, decoder/6/theta_3/Adam, decoder/6/theta_3/Adam_1, encoder/0/theta_0, encoder/0/theta_0/Adam, encoder/0/theta_0/Adam_1, encoder/0/theta_1, encoder/0/theta_1/Adam, encoder/0/theta_1/Adam_1, encoder/0/theta_2, encoder/0/theta_2/Adam, encoder/0/theta_2/Adam_1, encoder/0/theta_3, encoder/0/theta_3/Adam, encoder/0/theta_3/Adam_1, encoder/1/theta_0, encoder/1/theta_0/Adam, encoder/1/theta_0/Adam_1, encoder/1/theta_1, encoder/1/theta_1/Adam, encoder/1/theta_1/Adam_1, encoder/1/theta_2, encoder/1/theta_2/Adam, encoder/1/theta_2/Adam_1, encoder/1/theta_3, encoder/1/theta_3/Adam, encoder/1/theta_3/Adam_1, encoder/2/theta_0, encoder/2/theta_0/Adam, encoder/2/theta_0/Adam_1, encoder/2/theta_1, encoder/2/theta_1/Adam, encoder/2/theta_1/Adam_1, encoder/2/theta_2, encoder/2/theta_2/Adam, encoder/2/theta_2/Adam_1, encoder/2/theta_3, encoder/2/theta_3/Adam, encoder/2/theta_3/Adam_1, encoder/3/theta_m, encoder/3/theta_m/Adam, encoder/3/theta_m/Adam_1, encoder/3/theta_n, encoder/3/theta_n/Adam, encoder/3/theta_n/Adam_1)]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1441, in save
+    {self.saver_def.filename_tensor_name: checkpoint_file})
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1152, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1328, in _do_run
+    run_metadata)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1348, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.NotFoundError: scratch/checkpoints/movielens; No such file or directory
+	 [[node save/SaveV2 (defined at douban.py:457)  = SaveV2[dtypes=[DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, ..., DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT], _device="/job:localhost/replica:0/task:0/device:CPU:0"](_arg_save/Const_0_0, save/SaveV2/tensor_names, save/SaveV2/shape_and_slices, beta1_power, beta2_power, decoder/0/theta_4, decoder/0/theta_4/Adam, decoder/0/theta_4/Adam_1, decoder/0/theta_5, decoder/0/theta_5/Adam, decoder/0/theta_5/Adam_1, decoder/1/theta_0, decoder/1/theta_0/Adam, decoder/1/theta_0/Adam_1, decoder/1/theta_1, decoder/1/theta_1/Adam, decoder/1/theta_1/Adam_1, decoder/1/theta_2, decoder/1/theta_2/Adam, decoder/1/theta_2/Adam_1, decoder/1/theta_3, decoder/1/theta_3/Adam, decoder/1/theta_3/Adam_1, decoder/2/theta_0, decoder/2/theta_0/Adam, decoder/2/theta_0/Adam_1, decoder/2/theta_1, decoder/2/theta_1/Adam, decoder/2/theta_1/Adam_1, decoder/2/theta_2, decoder/2/theta_2/Adam, decoder/2/theta_2/Adam_1, decoder/2/theta_3, decoder/2/theta_3/Adam, decoder/2/theta_3/Adam_1, decoder/4/theta_0, decoder/4/theta_0/Adam, decoder/4/theta_0/Adam_1, decoder/4/theta_1, decoder/4/theta_1/Adam, decoder/4/theta_1/Adam_1, decoder/4/theta_2, decoder/4/theta_2/Adam, decoder/4/theta_2/Adam_1, decoder/4/theta_3, decoder/4/theta_3/Adam, decoder/4/theta_3/Adam_1, decoder/6/theta_0, decoder/6/theta_0/Adam, decoder/6/theta_0/Adam_1, decoder/6/theta_1, decoder/6/theta_1/Adam, decoder/6/theta_1/Adam_1, decoder/6/theta_2, decoder/6/theta_2/Adam, decoder/6/theta_2/Adam_1, decoder/6/theta_3, decoder/6/theta_3/Adam, decoder/6/theta_3/Adam_1, encoder/0/theta_0, encoder/0/theta_0/Adam, encoder/0/theta_0/Adam_1, encoder/0/theta_1, encoder/0/theta_1/Adam, encoder/0/theta_1/Adam_1, encoder/0/theta_2, encoder/0/theta_2/Adam, encoder/0/theta_2/Adam_1, encoder/0/theta_3, encoder/0/theta_3/Adam, encoder/0/theta_3/Adam_1, encoder/1/theta_0, encoder/1/theta_0/Adam, encoder/1/theta_0/Adam_1, encoder/1/theta_1, encoder/1/theta_1/Adam, encoder/1/theta_1/Adam_1, encoder/1/theta_2, encoder/1/theta_2/Adam, encoder/1/theta_2/Adam_1, encoder/1/theta_3, encoder/1/theta_3/Adam, encoder/1/theta_3/Adam_1, encoder/2/theta_0, encoder/2/theta_0/Adam, encoder/2/theta_0/Adam_1, encoder/2/theta_1, encoder/2/theta_1/Adam, encoder/2/theta_1/Adam_1, encoder/2/theta_2, encoder/2/theta_2/Adam, encoder/2/theta_2/Adam_1, encoder/2/theta_3, encoder/2/theta_3/Adam, encoder/2/theta_3/Adam_1, encoder/3/theta_m, encoder/3/theta_m/Adam, encoder/3/theta_m/Adam_1, encoder/3/theta_n, encoder/3/theta_n/Adam, encoder/3/theta_n/Adam_1)]]
+
+Caused by op 'save/SaveV2', defined at:
+  File "douban.py", line 779, in <module>
+    main(opts, logfile=log_name, restore_point=restore_point)
+  File "douban.py", line 457, in main
+    saver = tf.train.Saver(max_to_keep=1000) # keep all checkpoints
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1102, in __init__
+    self.build()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1114, in build
+    self._build(self._filename, build_save=True, build_restore=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1151, in _build
+    build_save=build_save, build_restore=build_restore)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 792, in _build_internal
+    save_tensor = self._AddSaveOps(filename_tensor, saveables)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 284, in _AddSaveOps
+    save = self.save_op(filename_tensor, saveables)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 202, in save_op
+    tensors)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/ops/gen_io_ops.py", line 1690, in save_v2
+    shape_and_slices=shape_and_slices, tensors=tensors, name=name)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 488, in new_func
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3274, in create_op
+    op_def=op_def)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1770, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+NotFoundError (see above for traceback): scratch/checkpoints/movielens; No such file or directory
+	 [[node save/SaveV2 (defined at douban.py:457)  = SaveV2[dtypes=[DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, ..., DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT], _device="/job:localhost/replica:0/task:0/device:CPU:0"](_arg_save/Const_0_0, save/SaveV2/tensor_names, save/SaveV2/shape_and_slices, beta1_power, beta2_power, decoder/0/theta_4, decoder/0/theta_4/Adam, decoder/0/theta_4/Adam_1, decoder/0/theta_5, decoder/0/theta_5/Adam, decoder/0/theta_5/Adam_1, decoder/1/theta_0, decoder/1/theta_0/Adam, decoder/1/theta_0/Adam_1, decoder/1/theta_1, decoder/1/theta_1/Adam, decoder/1/theta_1/Adam_1, decoder/1/theta_2, decoder/1/theta_2/Adam, decoder/1/theta_2/Adam_1, decoder/1/theta_3, decoder/1/theta_3/Adam, decoder/1/theta_3/Adam_1, decoder/2/theta_0, decoder/2/theta_0/Adam, decoder/2/theta_0/Adam_1, decoder/2/theta_1, decoder/2/theta_1/Adam, decoder/2/theta_1/Adam_1, decoder/2/theta_2, decoder/2/theta_2/Adam, decoder/2/theta_2/Adam_1, decoder/2/theta_3, decoder/2/theta_3/Adam, decoder/2/theta_3/Adam_1, decoder/4/theta_0, decoder/4/theta_0/Adam, decoder/4/theta_0/Adam_1, decoder/4/theta_1, decoder/4/theta_1/Adam, decoder/4/theta_1/Adam_1, decoder/4/theta_2, decoder/4/theta_2/Adam, decoder/4/theta_2/Adam_1, decoder/4/theta_3, decoder/4/theta_3/Adam, decoder/4/theta_3/Adam_1, decoder/6/theta_0, decoder/6/theta_0/Adam, decoder/6/theta_0/Adam_1, decoder/6/theta_1, decoder/6/theta_1/Adam, decoder/6/theta_1/Adam_1, decoder/6/theta_2, decoder/6/theta_2/Adam, decoder/6/theta_2/Adam_1, decoder/6/theta_3, decoder/6/theta_3/Adam, decoder/6/theta_3/Adam_1, encoder/0/theta_0, encoder/0/theta_0/Adam, encoder/0/theta_0/Adam_1, encoder/0/theta_1, encoder/0/theta_1/Adam, encoder/0/theta_1/Adam_1, encoder/0/theta_2, encoder/0/theta_2/Adam, encoder/0/theta_2/Adam_1, encoder/0/theta_3, encoder/0/theta_3/Adam, encoder/0/theta_3/Adam_1, encoder/1/theta_0, encoder/1/theta_0/Adam, encoder/1/theta_0/Adam_1, encoder/1/theta_1, encoder/1/theta_1/Adam, encoder/1/theta_1/Adam_1, encoder/1/theta_2, encoder/1/theta_2/Adam, encoder/1/theta_2/Adam_1, encoder/1/theta_3, encoder/1/theta_3/Adam, encoder/1/theta_3/Adam_1, encoder/2/theta_0, encoder/2/theta_0/Adam, encoder/2/theta_0/Adam_1, encoder/2/theta_1, encoder/2/theta_1/Adam, encoder/2/theta_1/Adam_1, encoder/2/theta_2, encoder/2/theta_2/Adam, encoder/2/theta_2/Adam_1, encoder/2/theta_3, encoder/2/theta_3/Adam, encoder/2/theta_3/Adam_1, encoder/3/theta_m, encoder/3/theta_m/Adam, encoder/3/theta_m/Adam_1, encoder/3/theta_n, encoder/3/theta_n/Adam, encoder/3/theta_n/Adam_1)]]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "douban.py", line 585, in main
+    save_path = saver.save(sess, opts['ckpt_folder'] + "/%s_best.ckpt" % opts.get('model_name', "test"))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1458, in save
+    raise exc
+ValueError: Parent directory of scratch/checkpoints/movielens/douban_best.ckpt doesn't exist, can't save.
+2019-05-03 03:17:40,626 Factorized Autoencoder run settings:
+2019-05-03 03:17:40,626 dataset: douban
+2019-05-03 03:17:40,626 Exchangable layer pool mode: mean
+2019-05-03 03:17:40,626 Pooling layer pool mode: mean
+2019-05-03 03:17:40,626 learning rate: 0.0005
+2019-05-03 03:17:40,626 activation: <function <lambda> at 0x130f72d90>
+2019-05-03 03:17:40,626 number of latent features: 100
+2019-05-03 03:17:40,626 maxN: 3000
+2019-05-03 03:17:40,626 maxM: 3000
+2019-05-03 03:17:40,765 From /Users/daniel/School/UIC/Course/2019 Spring/CS 582 - Information Retrieval/project/code/deep_exchangeable_tensors/sparse_util.py:142: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2019-05-03 03:17:43,128 From douban.py:213: calling reduce_logsumexp (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2019-05-03 03:17:43,167 Optimizing with adam with options: {'epsilon': 1e-06}
+2019-05-03 03:17:55,968 Training: epoch 1 took 10.3 train loss 1.609 (rec:1.143);
+2019-05-03 03:18:04,406 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 03:18:04,406 Validation: epoch 1 took 18.8 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:18:12,708 Training: epoch 2 took 8.2 train loss 1.609 (rec:1.143);
+2019-05-03 03:18:19,994 Validation: epoch 2 took 15.5 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:18:28,263 Training: epoch 3 took 8.2 train loss 1.609 (rec:1.143);
+2019-05-03 03:18:34,682 Validation: epoch 3 took 14.6 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:18:42,224 Training: epoch 4 took 7.5 train loss 1.609 (rec:1.143);
+2019-05-03 03:18:48,758 Validation: epoch 4 took 14.0 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:18:56,410 Training: epoch 5 took 7.6 train loss 1.609 (rec:1.143);
+2019-05-03 03:19:02,919 Validation: epoch 5 took 14.1 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:19:10,580 Training: epoch 6 took 7.6 train loss 1.609 (rec:1.143);
+2019-05-03 03:19:17,112 Validation: epoch 6 took 14.1 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:19:24,685 Training: epoch 7 took 7.5 train loss 1.609 (rec:1.143);
+2019-05-03 03:19:31,114 Validation: epoch 7 took 13.9 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:19:38,719 Training: epoch 8 took 7.5 train loss 1.609 (rec:1.143);
+2019-05-03 03:19:45,204 Validation: epoch 8 took 14.0 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:19:52,905 Training: epoch 9 took 7.6 train loss 1.609 (rec:1.143);
+2019-05-03 03:19:59,463 Validation: epoch 9 took 14.2 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:20:07,107 Training: epoch 10 took 7.6 train loss 1.609 (rec:1.143);
+2019-05-03 03:20:13,624 Validation: epoch 10 took 14.1 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:20:14,248 Model saved in file: scratch/checkpoints/movielens/douban_checkpt_ep_00010.ckpt
+2019-05-03 03:20:21,777 Training: epoch 11 took 7.5 train loss 1.609 (rec:1.143);
+2019-05-03 03:20:28,222 Validation: epoch 11 took 14.0 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:20:35,815 Training: epoch 12 took 7.5 train loss 1.609 (rec:1.143);
+2019-05-03 03:20:42,343 Validation: epoch 12 took 14.0 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:20:50,036 Training: epoch 13 took 7.6 train loss 1.609 (rec:1.143);
+2019-05-03 03:20:56,629 Validation: epoch 13 took 14.2 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:21:04,249 Training: epoch 14 took 7.5 train loss 1.609 (rec:1.143);
+2019-05-03 03:21:10,710 Validation: epoch 14 took 14.0 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:21:18,316 Training: epoch 15 took 7.5 train loss 1.609 (rec:1.143);
+2019-05-03 03:21:24,840 Validation: epoch 15 took 14.1 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:21:32,537 Training: epoch 16 took 7.6 train loss 1.609 (rec:1.143);
+2019-05-03 03:21:39,052 Validation: epoch 16 took 14.1 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:21:46,645 Training: epoch 17 took 7.5 train loss 1.609 (rec:1.143);
+2019-05-03 03:21:53,111 Validation: epoch 17 took 14.0 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:22:00,886 Training: epoch 18 took 7.7 train loss 1.609 (rec:1.143);
+2019-05-03 03:22:07,345 Validation: epoch 18 took 14.2 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:22:14,963 Training: epoch 19 took 7.5 train loss 1.609 (rec:1.143);
+2019-05-03 03:22:21,458 Validation: epoch 19 took 14.0 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:22:29,080 Training: epoch 20 took 7.5 train loss 1.609 (rec:1.143);
+2019-05-03 03:22:35,515 Validation: epoch 20 took 14.0 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:22:36,139 Model saved in file: scratch/checkpoints/movielens/douban_checkpt_ep_00020.ckpt
+2019-05-03 03:22:44,354 Training: epoch 21 took 8.2 train loss 1.609 (rec:1.143);
+2019-05-03 03:22:51,686 Validation: epoch 21 took 15.5 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:23:00,050 Training: epoch 22 took 8.3 train loss 1.609 (rec:1.143);
+2019-05-03 03:23:07,310 Validation: epoch 22 took 15.5 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:23:15,670 Training: epoch 23 took 8.3 train loss 1.609 (rec:1.143);
+2019-05-03 03:23:22,952 Validation: epoch 23 took 15.6 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:23:31,283 Training: epoch 24 took 8.2 train loss 1.609 (rec:1.143);
+2019-05-03 03:23:38,571 Validation: epoch 24 took 15.5 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:23:46,949 Training: epoch 25 took 8.3 train loss 1.609 (rec:1.143);
+2019-05-03 03:23:54,266 Validation: epoch 25 took 15.6 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:24:02,638 Training: epoch 26 took 8.3 train loss 1.609 (rec:1.143);
+2019-05-03 03:24:09,922 Validation: epoch 26 took 15.6 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:24:18,345 Training: epoch 27 took 8.3 train loss 1.609 (rec:1.143);
+2019-05-03 03:24:25,688 Validation: epoch 27 took 15.7 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:24:34,155 Training: epoch 28 took 8.4 train loss 1.609 (rec:1.143);
+2019-05-03 03:24:41,495 Validation: epoch 28 took 15.7 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:24:49,787 Training: epoch 29 took 8.2 train loss 1.609 (rec:1.143);
+2019-05-03 03:24:56,987 Validation: epoch 29 took 15.4 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:25:05,399 Training: epoch 30 took 8.3 train loss 1.609 (rec:1.143);
+2019-05-03 03:25:12,574 Validation: epoch 30 took 15.5 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:25:13,264 Model saved in file: scratch/checkpoints/movielens/douban_checkpt_ep_00030.ckpt
+2019-05-03 03:25:21,598 Training: epoch 31 took 8.3 train loss 1.609 (rec:1.143);
+2019-05-03 03:25:28,741 Validation: epoch 31 took 15.5 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:25:37,142 Training: epoch 32 took 8.3 train loss 1.609 (rec:1.143);
+2019-05-03 03:25:44,528 Validation: epoch 32 took 15.7 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:25:52,984 Training: epoch 33 took 8.4 train loss 1.609 (rec:1.143);
+2019-05-03 03:26:00,241 Validation: epoch 33 took 15.6 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:26:08,660 Training: epoch 34 took 8.3 train loss 1.609 (rec:1.143);
+2019-05-03 03:26:15,844 Validation: epoch 34 took 15.5 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:26:24,207 Training: epoch 35 took 8.3 train loss 1.609 (rec:1.143);
+2019-05-03 03:26:31,528 Validation: epoch 35 took 15.6 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:26:39,809 Training: epoch 36 took 8.2 train loss 1.609 (rec:1.143);
+2019-05-03 03:26:47,157 Validation: epoch 36 took 15.5 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:26:55,539 Training: epoch 37 took 8.3 train loss 1.609 (rec:1.143);
+2019-05-03 03:27:02,765 Validation: epoch 37 took 15.5 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:27:11,065 Training: epoch 38 took 8.2 train loss 1.609 (rec:1.143);
+2019-05-03 03:27:18,310 Validation: epoch 38 took 15.5 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:27:26,697 Training: epoch 39 took 8.3 train loss 1.609 (rec:1.143);
+2019-05-03 03:27:33,959 Validation: epoch 39 took 15.6 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:27:42,262 Training: epoch 40 took 8.2 train loss 1.609 (rec:1.143);
+2019-05-03 03:27:49,579 Validation: epoch 40 took 15.5 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:27:50,256 Model saved in file: scratch/checkpoints/movielens/douban_checkpt_ep_00040.ckpt
+2019-05-03 03:27:57,976 Training: epoch 41 took 7.7 train loss 1.609 (rec:1.143);
+2019-05-03 03:28:04,412 Validation: epoch 41 took 14.2 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:28:12,062 Training: epoch 42 took 7.6 train loss 1.609 (rec:1.143);
+2019-05-03 03:28:18,534 Validation: epoch 42 took 14.1 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:28:26,181 Training: epoch 43 took 7.6 train loss 1.609 (rec:1.143);
+2019-05-03 03:28:33,300 Validation: epoch 43 took 14.7 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:28:41,598 Training: epoch 44 took 8.2 train loss 1.609 (rec:1.143);
+2019-05-03 03:28:48,698 Validation: epoch 44 took 15.3 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:28:56,909 Training: epoch 45 took 8.1 train loss 1.609 (rec:1.143);
+2019-05-03 03:29:03,966 Validation: epoch 45 took 15.2 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:29:12,179 Training: epoch 46 took 8.1 train loss 1.609 (rec:1.143);
+2019-05-03 03:29:19,321 Validation: epoch 46 took 15.3 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:29:27,534 Training: epoch 47 took 8.1 train loss 1.609 (rec:1.143);
+2019-05-03 03:29:34,563 Validation: epoch 47 took 15.2 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:29:42,315 Training: epoch 48 took 7.7 train loss 1.609 (rec:1.143);
+2019-05-03 03:29:48,587 Validation: epoch 48 took 13.9 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:29:56,114 Training: epoch 49 took 7.5 train loss 1.609 (rec:1.143);
+2019-05-03 03:30:02,503 Validation: epoch 49 took 13.8 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 1; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:30:10,040 Training: epoch 50 took 7.5 train loss 1.609 (rec:1.143);
+2019-05-03 03:30:16,970 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 03:30:16,970 Validation: epoch 50 took 14.4 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 50; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:30:17,532 Model saved in file: scratch/checkpoints/movielens/douban_checkpt_ep_00050.ckpt
+2019-05-03 03:30:25,017 Training: epoch 51 took 7.5 train loss 1.609 (rec:1.143);
+2019-05-03 03:30:31,387 Validation: epoch 51 took 13.9 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 50; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:30:39,003 Training: epoch 52 took 7.5 train loss 1.609 (rec:1.143);
+2019-05-03 03:30:45,373 Validation: epoch 52 took 13.9 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 50; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:30:52,970 Training: epoch 53 took 7.5 train loss 1.609 (rec:1.143);
+2019-05-03 03:30:59,286 Validation: epoch 53 took 13.8 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 50; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:31:06,735 Training: epoch 54 took 7.4 train loss 1.609 (rec:1.143);
+2019-05-03 03:31:13,027 Validation: epoch 54 took 13.7 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 50; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:31:20,477 Training: epoch 55 took 7.4 train loss 1.609 (rec:1.143);
+2019-05-03 03:31:26,759 Validation: epoch 55 took 13.7 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 50; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:31:34,211 Training: epoch 56 took 7.4 train loss 1.609 (rec:1.143);
+2019-05-03 03:31:40,469 Validation: epoch 56 took 13.6 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 50; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:31:47,965 Training: epoch 57 took 7.4 train loss 1.609 (rec:1.143);
+2019-05-03 03:31:54,309 Validation: epoch 57 took 13.8 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 50; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:32:01,738 Training: epoch 58 took 7.4 train loss 1.609 (rec:1.143);
+2019-05-03 03:32:07,971 Validation: epoch 58 took 13.6 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 50; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:32:15,392 Training: epoch 59 took 7.4 train loss 1.609 (rec:1.143);
+2019-05-03 03:32:21,727 Validation: epoch 59 took 13.7 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 50; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:32:29,141 Training: epoch 60 took 7.3 train loss 1.609 (rec:1.143);
+2019-05-03 03:32:35,414 Validation: epoch 60 took 13.6 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 50; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:32:36,014 Model saved in file: scratch/checkpoints/movielens/douban_checkpt_ep_00060.ckpt
+2019-05-03 03:32:44,202 Training: epoch 61 took 8.2 train loss 1.609 (rec:1.143);
+2019-05-03 03:32:51,834 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 03:32:51,835 Validation: epoch 61 took 15.8 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 61; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:32:59,969 Training: epoch 62 took 8.1 train loss 1.609 (rec:1.143);
+2019-05-03 03:33:07,063 Validation: epoch 62 took 15.2 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 61; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:33:15,218 Training: epoch 63 took 8.1 train loss 1.609 (rec:1.143);
+2019-05-03 03:33:22,200 Validation: epoch 63 took 15.1 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 61; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:33:30,431 Training: epoch 64 took 8.2 train loss 1.609 (rec:1.143);
+2019-05-03 03:33:37,587 Validation: epoch 64 took 15.3 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 61; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:33:45,751 Training: epoch 65 took 8.1 train loss 1.609 (rec:1.143);
+2019-05-03 03:33:52,924 Validation: epoch 65 took 15.3 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 61; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:34:01,019 Training: epoch 66 took 8.0 train loss 1.609 (rec:1.143);
+2019-05-03 03:34:08,534 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 03:34:08,534 Validation: epoch 66 took 15.5 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 66; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:34:16,646 Training: epoch 67 took 8.0 train loss 1.609 (rec:1.143);
+2019-05-03 03:34:23,637 Validation: epoch 67 took 15.0 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 66; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:34:31,732 Training: epoch 68 took 8.0 train loss 1.609 (rec:1.143);
+2019-05-03 03:34:39,439 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 03:34:39,439 Validation: epoch 68 took 15.7 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 68; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:34:47,514 Training: epoch 69 took 8.0 train loss 1.609 (rec:1.143);
+2019-05-03 03:34:54,575 Validation: epoch 69 took 15.1 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 68; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:35:02,839 Training: epoch 70 took 8.2 train loss 1.609 (rec:1.143);
+2019-05-03 03:35:09,894 Validation: epoch 70 took 15.2 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 68; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:35:10,514 Model saved in file: scratch/checkpoints/movielens/douban_checkpt_ep_00070.ckpt
+2019-05-03 03:35:18,536 Training: epoch 71 took 8.0 train loss 1.609 (rec:1.143);
+2019-05-03 03:35:25,540 Validation: epoch 71 took 15.0 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 68; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:35:33,644 Training: epoch 72 took 8.0 train loss 1.609 (rec:1.143);
+2019-05-03 03:35:41,131 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 03:35:41,131 Validation: epoch 72 took 15.5 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 72; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:35:48,924 Training: epoch 73 took 7.7 train loss 1.609 (rec:1.143);
+2019-05-03 03:35:56,637 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 03:35:56,637 Validation: epoch 73 took 15.4 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 73; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:36:04,823 Training: epoch 74 took 8.1 train loss 1.609 (rec:1.143);
+2019-05-03 03:36:12,436 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 03:36:12,436 Validation: epoch 74 took 15.7 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 74; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:36:20,670 Training: epoch 75 took 8.2 train loss 1.609 (rec:1.143);
+2019-05-03 03:36:27,626 Validation: epoch 75 took 15.1 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 74; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:36:35,734 Training: epoch 76 took 8.0 train loss 1.609 (rec:1.143);
+2019-05-03 03:36:43,326 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 03:36:43,327 Validation: epoch 76 took 15.6 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 76; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:36:51,450 Training: epoch 77 took 8.0 train loss 1.609 (rec:1.143);
+2019-05-03 03:36:59,014 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 03:36:59,014 Validation: epoch 77 took 15.6 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 77; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:37:07,198 Training: epoch 78 took 8.1 train loss 1.609 (rec:1.143);
+2019-05-03 03:37:14,795 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 03:37:14,795 Validation: epoch 78 took 15.7 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 78; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:37:22,931 Training: epoch 79 took 8.1 train loss 1.609 (rec:1.143);
+2019-05-03 03:37:30,534 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 03:37:30,534 Validation: epoch 79 took 15.7 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 79; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:37:38,757 Training: epoch 80 took 8.1 train loss 1.609 (rec:1.143);
+2019-05-03 03:37:46,323 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 03:37:46,323 Validation: epoch 80 took 15.7 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 80; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:37:46,941 Model saved in file: scratch/checkpoints/movielens/douban_checkpt_ep_00080.ckpt
+2019-05-03 03:37:55,018 Training: epoch 81 took 8.1 train loss 1.609 (rec:1.143);
+2019-05-03 03:38:02,714 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 03:38:02,715 Validation: epoch 81 took 15.8 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 81; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:38:10,980 Training: epoch 82 took 8.2 train loss 1.609 (rec:1.143);
+2019-05-03 03:38:18,650 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 03:38:18,650 Validation: epoch 82 took 15.9 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 82; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:38:26,774 Training: epoch 83 took 8.0 train loss 1.609 (rec:1.143);
+2019-05-03 03:38:34,421 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 03:38:34,421 Validation: epoch 83 took 15.7 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 83; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:38:42,566 Training: epoch 84 took 8.1 train loss 1.609 (rec:1.143);
+2019-05-03 03:38:50,201 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 03:38:50,201 Validation: epoch 84 took 15.7 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 84; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:38:58,330 Training: epoch 85 took 8.1 train loss 1.609 (rec:1.143);
+2019-05-03 03:39:05,925 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 03:39:05,926 Validation: epoch 85 took 15.6 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 85; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:39:14,262 Training: epoch 86 took 8.3 train loss 1.609 (rec:1.143);
+2019-05-03 03:39:21,856 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 03:39:21,856 Validation: epoch 86 took 15.9 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 86; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:39:30,095 Training: epoch 87 took 8.2 train loss 1.609 (rec:1.143);
+2019-05-03 03:39:37,643 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 03:39:37,643 Validation: epoch 87 took 15.7 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 87; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:39:45,783 Training: epoch 88 took 8.1 train loss 1.609 (rec:1.143);
+2019-05-03 03:39:53,299 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 03:39:53,299 Validation: epoch 88 took 15.6 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 88; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:40:01,518 Training: epoch 89 took 8.1 train loss 1.609 (rec:1.143);
+2019-05-03 03:40:09,036 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 03:40:09,036 Validation: epoch 89 took 15.7 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 89; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:40:17,275 Training: epoch 90 took 8.2 train loss 1.609 (rec:1.143);
+2019-05-03 03:40:24,833 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 03:40:24,833 Validation: epoch 90 took 15.7 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 90; test loss: 1.144 (best test: 1.144 with val 1.153).
+2019-05-03 03:40:25,450 Model saved in file: scratch/checkpoints/movielens/douban_checkpt_ep_00090.ckpt
+2019-05-03 03:40:33,437 Training: epoch 91 took 8.0 train loss 1.609 (rec:1.143);
+2019-05-03 03:40:40,920 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 03:40:40,920 Validation: epoch 91 took 15.5 train loss 1.609 (rec:1.143); valid: 1.153; min valid loss: 1.153 (train: 1.14, test: 1.14) at epoch: 91; test loss: 1.143 (best test: 1.143 with val 1.153).
+2019-05-03 03:40:48,993 Training: epoch 92 took 8.0 train loss 1.609 (rec:1.142);
+2019-05-03 03:40:56,606 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 03:40:56,606 Validation: epoch 92 took 15.6 train loss 1.609 (rec:1.142); valid: 1.152; min valid loss: 1.152 (train: 1.14, test: 1.14) at epoch: 92; test loss: 1.143 (best test: 1.143 with val 1.152).
+2019-05-03 03:41:04,792 Training: epoch 93 took 8.1 train loss 1.608 (rec:1.142);
+2019-05-03 03:41:12,490 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 03:41:12,491 Validation: epoch 93 took 15.8 train loss 1.608 (rec:1.142); valid: 1.149; min valid loss: 1.149 (train: 1.14, test: 1.14) at epoch: 93; test loss: 1.140 (best test: 1.140 with val 1.149).
+2019-05-03 03:41:20,707 Training: epoch 94 took 8.1 train loss 1.605 (rec:1.139);
+2019-05-03 03:41:28,301 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 03:41:28,301 Validation: epoch 94 took 15.7 train loss 1.605 (rec:1.139); valid: 1.141; min valid loss: 1.141 (train: 1.14, test: 1.13) at epoch: 94; test loss: 1.132 (best test: 1.132 with val 1.141).
+2019-05-03 03:41:36,495 Training: epoch 95 took 8.1 train loss 1.596 (rec:1.131);
+2019-05-03 03:41:44,020 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 03:41:44,020 Validation: epoch 95 took 15.6 train loss 1.596 (rec:1.131); valid: 1.115; min valid loss: 1.115 (train: 1.13, test: 1.11) at epoch: 95; test loss: 1.107 (best test: 1.107 with val 1.115).
+2019-05-03 03:41:52,136 Training: epoch 96 took 8.0 train loss 1.566 (rec:1.106);
+2019-05-03 03:41:59,798 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 03:41:59,798 Validation: epoch 96 took 15.7 train loss 1.566 (rec:1.106); valid: 1.044; min valid loss: 1.044 (train: 1.11, test: 1.04) at epoch: 96; test loss: 1.038 (best test: 1.038 with val 1.044).
+2019-05-03 03:42:07,933 Training: epoch 97 took 8.1 train loss 1.484 (rec:1.036);
+2019-05-03 03:42:15,528 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 03:42:15,528 Validation: epoch 97 took 15.7 train loss 1.484 (rec:1.036); valid: 0.933; min valid loss: 0.933 (train: 1.04, test: 0.932) at epoch: 97; test loss: 0.932 (best test: 0.932 with val 0.933).
+2019-05-03 03:42:23,745 Training: epoch 98 took 8.1 train loss 1.337 (rec:0.931);
+2019-05-03 03:42:31,350 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 03:42:31,350 Validation: epoch 98 took 15.7 train loss 1.337 (rec:0.931); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 03:42:39,429 Training: epoch 99 took 8.0 train loss 1.468 (rec:0.910);
+2019-05-03 03:42:46,583 Validation: epoch 99 took 15.2 train loss 1.468 (rec:0.910); valid: 0.909; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.909).
+2019-05-03 03:42:54,693 Training: epoch 100 took 8.0 train loss 1.350 (rec:0.910);
+2019-05-03 03:43:01,683 Validation: epoch 100 took 15.0 train loss 1.350 (rec:0.910); valid: 0.910; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.912 (best test: 0.911 with val 0.909).
+2019-05-03 03:43:02,327 Model saved in file: scratch/checkpoints/movielens/douban_checkpt_ep_00100.ckpt
+2019-05-03 03:43:10,396 Training: epoch 101 took 8.1 train loss 1.299 (rec:0.911);
+2019-05-03 03:43:17,442 Validation: epoch 101 took 15.1 train loss 1.299 (rec:0.911); valid: 0.921; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.921 (best test: 0.911 with val 0.909).
+2019-05-03 03:43:25,606 Training: epoch 102 took 8.1 train loss 1.336 (rec:0.919);
+2019-05-03 03:43:32,799 Validation: epoch 102 took 15.3 train loss 1.336 (rec:0.919); valid: 0.930; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.929 (best test: 0.911 with val 0.909).
+2019-05-03 03:43:40,897 Training: epoch 103 took 8.0 train loss 1.365 (rec:0.928);
+2019-05-03 03:43:47,879 Validation: epoch 103 took 15.0 train loss 1.365 (rec:0.928); valid: 0.926; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.926 (best test: 0.911 with val 0.909).
+2019-05-03 03:43:56,020 Training: epoch 104 took 8.1 train loss 1.365 (rec:0.924);
+2019-05-03 03:44:03,225 Validation: epoch 104 took 15.3 train loss 1.365 (rec:0.924); valid: 0.915; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.916 (best test: 0.911 with val 0.909).
+2019-05-03 03:44:11,357 Training: epoch 105 took 8.0 train loss 1.345 (rec:0.914);
+2019-05-03 03:44:18,344 Validation: epoch 105 took 15.0 train loss 1.345 (rec:0.914); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 03:44:26,435 Training: epoch 106 took 8.0 train loss 1.323 (rec:0.910);
+2019-05-03 03:44:33,452 Validation: epoch 106 took 15.0 train loss 1.323 (rec:0.910); valid: 0.910; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.914 (best test: 0.911 with val 0.908).
+2019-05-03 03:44:41,671 Training: epoch 107 took 8.1 train loss 1.318 (rec:0.913);
+2019-05-03 03:44:48,706 Validation: epoch 107 took 15.2 train loss 1.318 (rec:0.913); valid: 0.911; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.915 (best test: 0.911 with val 0.908).
+2019-05-03 03:44:56,826 Training: epoch 108 took 8.0 train loss 1.327 (rec:0.914);
+2019-05-03 03:45:03,943 Validation: epoch 108 took 15.2 train loss 1.327 (rec:0.914); valid: 0.911; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.916 (best test: 0.911 with val 0.908).
+2019-05-03 03:45:12,120 Training: epoch 109 took 8.1 train loss 1.321 (rec:0.914);
+2019-05-03 03:45:19,115 Validation: epoch 109 took 15.1 train loss 1.321 (rec:0.914); valid: 0.911; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.916 (best test: 0.911 with val 0.908).
+2019-05-03 03:45:27,236 Training: epoch 110 took 8.0 train loss 1.305 (rec:0.914);
+2019-05-03 03:45:34,350 Validation: epoch 110 took 15.2 train loss 1.305 (rec:0.914); valid: 0.910; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.915 (best test: 0.911 with val 0.908).
+2019-05-03 03:45:35,001 Model saved in file: scratch/checkpoints/movielens/douban_checkpt_ep_00110.ckpt
+2019-05-03 03:45:43,112 Training: epoch 111 took 8.1 train loss 1.294 (rec:0.913);
+2019-05-03 03:45:50,117 Validation: epoch 111 took 15.1 train loss 1.294 (rec:0.913); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.912 (best test: 0.911 with val 0.908).
+2019-05-03 03:45:58,186 Training: epoch 112 took 8.0 train loss 1.294 (rec:0.910);
+2019-05-03 03:46:05,288 Validation: epoch 112 took 15.1 train loss 1.294 (rec:0.910); valid: 0.909; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 03:46:12,855 Training: epoch 113 took 7.5 train loss 1.300 (rec:0.910);
+2019-05-03 03:46:19,058 Validation: epoch 113 took 13.7 train loss 1.300 (rec:0.910); valid: 0.910; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.912 (best test: 0.911 with val 0.908).
+2019-05-03 03:46:26,499 Training: epoch 114 took 7.4 train loss 1.304 (rec:0.911);
+2019-05-03 03:46:32,738 Validation: epoch 114 took 13.6 train loss 1.304 (rec:0.911); valid: 0.911; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.913 (best test: 0.911 with val 0.908).
+2019-05-03 03:46:40,353 Training: epoch 115 took 7.5 train loss 1.303 (rec:0.911);
+2019-05-03 03:46:47,414 Validation: epoch 115 took 14.6 train loss 1.303 (rec:0.911); valid: 0.911; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.913 (best test: 0.911 with val 0.908).
+2019-05-03 03:46:55,571 Training: epoch 116 took 8.1 train loss 1.299 (rec:0.911);
+2019-05-03 03:47:02,608 Validation: epoch 116 took 15.1 train loss 1.299 (rec:0.911); valid: 0.910; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.912 (best test: 0.911 with val 0.908).
+2019-05-03 03:47:10,796 Training: epoch 117 took 8.1 train loss 1.297 (rec:0.910);
+2019-05-03 03:47:17,771 Validation: epoch 117 took 15.1 train loss 1.297 (rec:0.910); valid: 0.910; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.912 (best test: 0.911 with val 0.908).
+2019-05-03 03:47:25,979 Training: epoch 118 took 8.1 train loss 1.298 (rec:0.911);
+2019-05-03 03:47:33,065 Validation: epoch 118 took 15.2 train loss 1.298 (rec:0.911); valid: 0.910; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.912 (best test: 0.911 with val 0.908).
+2019-05-03 03:47:41,246 Training: epoch 119 took 8.1 train loss 1.299 (rec:0.911);
+2019-05-03 03:47:48,244 Validation: epoch 119 took 15.1 train loss 1.299 (rec:0.911); valid: 0.911; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.913 (best test: 0.911 with val 0.908).
+2019-05-03 03:47:56,371 Training: epoch 120 took 8.0 train loss 1.297 (rec:0.912);
+2019-05-03 03:48:03,436 Validation: epoch 120 took 15.1 train loss 1.297 (rec:0.912); valid: 0.913; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.914 (best test: 0.911 with val 0.908).
+2019-05-03 03:48:04,072 Model saved in file: scratch/checkpoints/movielens/douban_checkpt_ep_00120.ckpt
+2019-05-03 03:48:12,163 Training: epoch 121 took 8.1 train loss 1.294 (rec:0.912);
+2019-05-03 03:48:19,250 Validation: epoch 121 took 15.2 train loss 1.294 (rec:0.912); valid: 0.914; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.915 (best test: 0.911 with val 0.908).
+2019-05-03 03:48:27,401 Training: epoch 122 took 8.1 train loss 1.294 (rec:0.913);
+2019-05-03 03:48:34,375 Validation: epoch 122 took 15.0 train loss 1.294 (rec:0.913); valid: 0.914; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.915 (best test: 0.911 with val 0.908).
+2019-05-03 03:48:42,666 Training: epoch 123 took 8.2 train loss 1.295 (rec:0.913);
+2019-05-03 03:48:49,802 Validation: epoch 123 took 15.3 train loss 1.295 (rec:0.913); valid: 0.913; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.914 (best test: 0.911 with val 0.908).
+2019-05-03 03:48:57,940 Training: epoch 124 took 8.1 train loss 1.294 (rec:0.913);
+2019-05-03 03:49:05,002 Validation: epoch 124 took 15.1 train loss 1.294 (rec:0.913); valid: 0.912; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.913 (best test: 0.911 with val 0.908).
+2019-05-03 03:49:13,195 Training: epoch 125 took 8.1 train loss 1.292 (rec:0.912);
+2019-05-03 03:49:20,235 Validation: epoch 125 took 15.1 train loss 1.292 (rec:0.912); valid: 0.910; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.912 (best test: 0.911 with val 0.908).
+2019-05-03 03:49:28,382 Training: epoch 126 took 8.1 train loss 1.291 (rec:0.911);
+2019-05-03 03:49:35,474 Validation: epoch 126 took 15.2 train loss 1.291 (rec:0.911); valid: 0.909; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 03:49:43,657 Training: epoch 127 took 8.1 train loss 1.291 (rec:0.910);
+2019-05-03 03:49:50,363 Validation: epoch 127 took 14.8 train loss 1.291 (rec:0.910); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 03:49:57,889 Training: epoch 128 took 7.5 train loss 1.291 (rec:0.910);
+2019-05-03 03:50:04,239 Validation: epoch 128 took 13.8 train loss 1.291 (rec:0.910); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 03:50:11,671 Training: epoch 129 took 7.4 train loss 1.291 (rec:0.910);
+2019-05-03 03:50:17,969 Validation: epoch 129 took 13.7 train loss 1.291 (rec:0.910); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.912 (best test: 0.911 with val 0.908).
+2019-05-03 03:50:25,495 Training: epoch 130 took 7.5 train loss 1.290 (rec:0.910);
+2019-05-03 03:50:31,865 Validation: epoch 130 took 13.8 train loss 1.290 (rec:0.910); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.912 (best test: 0.911 with val 0.908).
+2019-05-03 03:50:32,484 Model saved in file: scratch/checkpoints/movielens/douban_checkpt_ep_00130.ckpt
+2019-05-03 03:50:40,612 Training: epoch 131 took 8.1 train loss 1.290 (rec:0.910);
+2019-05-03 03:50:47,582 Validation: epoch 131 took 15.1 train loss 1.290 (rec:0.910); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.912 (best test: 0.911 with val 0.908).
+2019-05-03 03:50:55,722 Training: epoch 132 took 8.1 train loss 1.291 (rec:0.910);
+2019-05-03 03:51:02,896 Validation: epoch 132 took 15.2 train loss 1.291 (rec:0.910); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.912 (best test: 0.911 with val 0.908).
+2019-05-03 03:51:11,044 Training: epoch 133 took 8.1 train loss 1.291 (rec:0.910);
+2019-05-03 03:51:18,116 Validation: epoch 133 took 15.1 train loss 1.291 (rec:0.910); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.912 (best test: 0.911 with val 0.908).
+2019-05-03 03:51:26,226 Training: epoch 134 took 8.0 train loss 1.291 (rec:0.910);
+2019-05-03 03:51:33,289 Validation: epoch 134 took 15.1 train loss 1.291 (rec:0.910); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.912 (best test: 0.911 with val 0.908).
+2019-05-03 03:51:41,395 Training: epoch 135 took 8.0 train loss 1.291 (rec:0.910);
+2019-05-03 03:51:48,511 Validation: epoch 135 took 15.1 train loss 1.291 (rec:0.910); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.912 (best test: 0.911 with val 0.908).
+2019-05-03 03:51:56,643 Training: epoch 136 took 8.1 train loss 1.291 (rec:0.910);
+2019-05-03 03:52:03,647 Validation: epoch 136 took 15.1 train loss 1.291 (rec:0.910); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.912 (best test: 0.911 with val 0.908).
+2019-05-03 03:52:11,767 Training: epoch 137 took 8.0 train loss 1.290 (rec:0.910);
+2019-05-03 03:52:18,797 Validation: epoch 137 took 15.1 train loss 1.290 (rec:0.910); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.912 (best test: 0.911 with val 0.908).
+2019-05-03 03:52:26,884 Training: epoch 138 took 8.0 train loss 1.290 (rec:0.910);
+2019-05-03 03:52:33,959 Validation: epoch 138 took 15.1 train loss 1.290 (rec:0.910); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 03:52:42,076 Training: epoch 139 took 8.0 train loss 1.290 (rec:0.910);
+2019-05-03 03:52:49,147 Validation: epoch 139 took 15.1 train loss 1.290 (rec:0.910); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 03:52:57,232 Training: epoch 140 took 8.0 train loss 1.290 (rec:0.910);
+2019-05-03 03:53:04,269 Validation: epoch 140 took 15.0 train loss 1.290 (rec:0.910); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 03:53:04,912 Model saved in file: scratch/checkpoints/movielens/douban_checkpt_ep_00140.ckpt
+2019-05-03 03:53:12,923 Training: epoch 141 took 8.0 train loss 1.290 (rec:0.910);
+2019-05-03 03:53:19,918 Validation: epoch 141 took 15.0 train loss 1.290 (rec:0.910); valid: 0.909; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 03:53:28,073 Training: epoch 142 took 8.1 train loss 1.290 (rec:0.910);
+2019-05-03 03:53:35,200 Validation: epoch 142 took 15.2 train loss 1.290 (rec:0.910); valid: 0.909; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 03:53:43,380 Training: epoch 143 took 8.1 train loss 1.290 (rec:0.910);
+2019-05-03 03:53:50,401 Validation: epoch 143 took 15.1 train loss 1.290 (rec:0.910); valid: 0.909; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 03:53:58,555 Training: epoch 144 took 8.1 train loss 1.290 (rec:0.910);
+2019-05-03 03:54:05,553 Validation: epoch 144 took 15.1 train loss 1.290 (rec:0.910); valid: 0.909; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 03:54:13,762 Training: epoch 145 took 8.1 train loss 1.290 (rec:0.910);
+2019-05-03 03:54:20,839 Validation: epoch 145 took 15.2 train loss 1.290 (rec:0.910); valid: 0.909; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 03:54:28,967 Training: epoch 146 took 8.0 train loss 1.290 (rec:0.910);
+2019-05-03 03:54:36,085 Validation: epoch 146 took 15.2 train loss 1.290 (rec:0.910); valid: 0.909; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 03:54:44,315 Training: epoch 147 took 8.2 train loss 1.290 (rec:0.910);
+2019-05-03 03:54:51,319 Validation: epoch 147 took 15.2 train loss 1.290 (rec:0.910); valid: 0.909; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 03:54:59,467 Training: epoch 148 took 8.1 train loss 1.290 (rec:0.910);
+2019-05-03 03:55:06,469 Validation: epoch 148 took 15.1 train loss 1.290 (rec:0.910); valid: 0.909; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 03:55:14,650 Training: epoch 149 took 8.1 train loss 1.290 (rec:0.910);
+2019-05-03 03:55:21,663 Validation: epoch 149 took 15.1 train loss 1.290 (rec:0.910); valid: 0.909; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 03:55:29,842 Training: epoch 150 took 8.1 train loss 1.290 (rec:0.910);
+2019-05-03 03:55:36,837 Validation: epoch 150 took 15.1 train loss 1.290 (rec:0.910); valid: 0.909; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 03:55:37,461 Model saved in file: scratch/checkpoints/movielens/douban_checkpt_ep_00150.ckpt
+2019-05-03 03:55:45,557 Training: epoch 151 took 8.1 train loss 1.290 (rec:0.910);
+2019-05-03 03:55:52,672 Validation: epoch 151 took 15.2 train loss 1.290 (rec:0.910); valid: 0.909; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.909).
+2019-05-03 03:56:00,838 Training: epoch 152 took 8.1 train loss 1.290 (rec:0.910);
+2019-05-03 03:56:07,955 Validation: epoch 152 took 15.2 train loss 1.290 (rec:0.910); valid: 0.909; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.909).
+2019-05-03 03:56:16,096 Training: epoch 153 took 8.1 train loss 1.290 (rec:0.910);
+2019-05-03 03:56:23,277 Validation: epoch 153 took 15.2 train loss 1.290 (rec:0.910); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 03:56:31,457 Training: epoch 154 took 8.1 train loss 1.290 (rec:0.910);
+2019-05-03 03:56:38,595 Validation: epoch 154 took 15.2 train loss 1.290 (rec:0.910); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 03:56:46,669 Training: epoch 155 took 8.0 train loss 1.290 (rec:0.910);
+2019-05-03 03:56:53,793 Validation: epoch 155 took 15.1 train loss 1.290 (rec:0.910); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 03:57:01,965 Training: epoch 156 took 8.1 train loss 1.290 (rec:0.910);
+2019-05-03 03:57:08,950 Validation: epoch 156 took 15.1 train loss 1.290 (rec:0.910); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 03:57:17,167 Training: epoch 157 took 8.1 train loss 1.290 (rec:0.910);
+2019-05-03 03:57:24,246 Validation: epoch 157 took 15.2 train loss 1.290 (rec:0.910); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 03:57:32,401 Training: epoch 158 took 8.1 train loss 1.290 (rec:0.910);
+2019-05-03 03:57:39,495 Validation: epoch 158 took 15.2 train loss 1.290 (rec:0.910); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 03:57:47,561 Training: epoch 159 took 8.0 train loss 1.290 (rec:0.910);
+2019-05-03 03:57:54,524 Validation: epoch 159 took 14.9 train loss 1.290 (rec:0.910); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 03:58:02,662 Training: epoch 160 took 8.1 train loss 1.290 (rec:0.910);
+2019-05-03 03:58:09,613 Validation: epoch 160 took 15.0 train loss 1.290 (rec:0.910); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 03:58:10,237 Model saved in file: scratch/checkpoints/movielens/douban_checkpt_ep_00160.ckpt
+2019-05-03 03:58:18,351 Training: epoch 161 took 8.1 train loss 1.290 (rec:0.910);
+2019-05-03 03:58:25,357 Validation: epoch 161 took 15.1 train loss 1.290 (rec:0.910); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 03:58:33,603 Training: epoch 162 took 8.2 train loss 1.290 (rec:0.910);
+2019-05-03 03:58:40,692 Validation: epoch 162 took 15.3 train loss 1.290 (rec:0.910); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 03:58:48,815 Training: epoch 163 took 8.0 train loss 1.290 (rec:0.910);
+2019-05-03 03:58:55,949 Validation: epoch 163 took 15.2 train loss 1.290 (rec:0.910); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 03:59:04,080 Training: epoch 164 took 8.0 train loss 1.290 (rec:0.910);
+2019-05-03 03:59:11,028 Validation: epoch 164 took 15.0 train loss 1.290 (rec:0.910); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 03:59:19,225 Training: epoch 165 took 8.1 train loss 1.290 (rec:0.910);
+2019-05-03 03:59:26,322 Validation: epoch 165 took 15.2 train loss 1.290 (rec:0.910); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 03:59:34,443 Training: epoch 166 took 8.0 train loss 1.290 (rec:0.910);
+2019-05-03 03:59:41,362 Validation: epoch 166 took 15.0 train loss 1.290 (rec:0.910); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 03:59:49,500 Training: epoch 167 took 8.1 train loss 1.290 (rec:0.910);
+2019-05-03 03:59:56,459 Validation: epoch 167 took 15.0 train loss 1.290 (rec:0.910); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 04:00:04,663 Training: epoch 168 took 8.1 train loss 1.290 (rec:0.910);
+2019-05-03 04:00:11,700 Validation: epoch 168 took 15.2 train loss 1.290 (rec:0.910); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 04:00:19,849 Training: epoch 169 took 8.1 train loss 1.290 (rec:0.910);
+2019-05-03 04:00:26,818 Validation: epoch 169 took 15.0 train loss 1.290 (rec:0.910); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 04:00:35,039 Training: epoch 170 took 8.1 train loss 1.290 (rec:0.910);
+2019-05-03 04:00:42,010 Validation: epoch 170 took 15.1 train loss 1.290 (rec:0.910); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 04:00:42,639 Model saved in file: scratch/checkpoints/movielens/douban_checkpt_ep_00170.ckpt
+2019-05-03 04:00:50,748 Training: epoch 171 took 8.1 train loss 1.290 (rec:0.910);
+2019-05-03 04:00:57,779 Validation: epoch 171 took 15.1 train loss 1.290 (rec:0.910); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 04:01:05,943 Training: epoch 172 took 8.1 train loss 1.289 (rec:0.909);
+2019-05-03 04:01:12,939 Validation: epoch 172 took 15.1 train loss 1.289 (rec:0.909); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 04:01:21,185 Training: epoch 173 took 8.2 train loss 1.290 (rec:0.910);
+2019-05-03 04:01:28,128 Validation: epoch 173 took 15.1 train loss 1.290 (rec:0.910); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 04:01:36,378 Training: epoch 174 took 8.2 train loss 1.290 (rec:0.909);
+2019-05-03 04:01:43,431 Validation: epoch 174 took 15.2 train loss 1.290 (rec:0.909); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 04:01:51,520 Training: epoch 175 took 8.0 train loss 1.290 (rec:0.909);
+2019-05-03 04:01:58,456 Validation: epoch 175 took 14.9 train loss 1.290 (rec:0.909); valid: 0.908; min valid loss: 0.908 (train: 0.931, test: 0.911) at epoch: 98; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 04:02:06,660 Training: epoch 176 took 8.1 train loss 1.289 (rec:0.909);
+2019-05-03 04:02:14,300 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 04:02:14,300 Validation: epoch 176 took 15.8 train loss 1.289 (rec:0.909); valid: 0.908; min valid loss: 0.908 (train: 0.909, test: 0.911) at epoch: 176; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 04:02:22,434 Training: epoch 177 took 8.1 train loss 1.290 (rec:0.910);
+2019-05-03 04:02:30,088 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 04:02:30,088 Validation: epoch 177 took 15.7 train loss 1.290 (rec:0.910); valid: 0.908; min valid loss: 0.908 (train: 0.91, test: 0.911) at epoch: 177; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 04:02:38,247 Training: epoch 178 took 8.1 train loss 1.289 (rec:0.909);
+2019-05-03 04:02:45,846 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 04:02:45,846 Validation: epoch 178 took 15.7 train loss 1.289 (rec:0.909); valid: 0.908; min valid loss: 0.908 (train: 0.909, test: 0.911) at epoch: 178; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 04:02:53,919 Training: epoch 179 took 8.0 train loss 1.289 (rec:0.909);
+2019-05-03 04:03:01,506 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 04:03:01,506 Validation: epoch 179 took 15.6 train loss 1.289 (rec:0.909); valid: 0.908; min valid loss: 0.908 (train: 0.909, test: 0.911) at epoch: 179; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 04:03:09,650 Training: epoch 180 took 8.1 train loss 1.289 (rec:0.909);
+2019-05-03 04:03:17,286 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 04:03:17,286 Validation: epoch 180 took 15.7 train loss 1.289 (rec:0.909); valid: 0.908; min valid loss: 0.908 (train: 0.909, test: 0.911) at epoch: 180; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 04:03:17,909 Model saved in file: scratch/checkpoints/movielens/douban_checkpt_ep_00180.ckpt
+2019-05-03 04:03:25,950 Training: epoch 181 took 8.0 train loss 1.289 (rec:0.909);
+2019-05-03 04:03:33,533 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 04:03:33,533 Validation: epoch 181 took 15.6 train loss 1.289 (rec:0.909); valid: 0.908; min valid loss: 0.908 (train: 0.909, test: 0.911) at epoch: 181; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 04:03:41,627 Training: epoch 182 took 8.0 train loss 1.289 (rec:0.909);
+2019-05-03 04:03:49,257 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 04:03:49,257 Validation: epoch 182 took 15.6 train loss 1.289 (rec:0.909); valid: 0.908; min valid loss: 0.908 (train: 0.909, test: 0.911) at epoch: 182; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 04:03:57,432 Training: epoch 183 took 8.1 train loss 1.289 (rec:0.909);
+2019-05-03 04:04:05,048 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 04:04:05,048 Validation: epoch 183 took 15.7 train loss 1.289 (rec:0.909); valid: 0.908; min valid loss: 0.908 (train: 0.909, test: 0.911) at epoch: 183; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 04:04:13,265 Training: epoch 184 took 8.1 train loss 1.289 (rec:0.909);
+2019-05-03 04:04:20,867 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 04:04:20,867 Validation: epoch 184 took 15.7 train loss 1.289 (rec:0.909); valid: 0.908; min valid loss: 0.908 (train: 0.909, test: 0.911) at epoch: 184; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 04:04:28,953 Training: epoch 185 took 8.0 train loss 1.289 (rec:0.909);
+2019-05-03 04:04:36,572 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 04:04:36,572 Validation: epoch 185 took 15.6 train loss 1.289 (rec:0.909); valid: 0.908; min valid loss: 0.908 (train: 0.909, test: 0.911) at epoch: 185; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 04:04:44,762 Training: epoch 186 took 8.1 train loss 1.289 (rec:0.909);
+2019-05-03 04:04:52,427 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 04:04:52,427 Validation: epoch 186 took 15.8 train loss 1.289 (rec:0.909); valid: 0.908; min valid loss: 0.908 (train: 0.909, test: 0.911) at epoch: 186; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 04:05:00,590 Training: epoch 187 took 8.1 train loss 1.289 (rec:0.909);
+2019-05-03 04:05:08,295 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 04:05:08,295 Validation: epoch 187 took 15.8 train loss 1.289 (rec:0.909); valid: 0.908; min valid loss: 0.908 (train: 0.909, test: 0.911) at epoch: 187; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 04:05:16,505 Training: epoch 188 took 8.1 train loss 1.289 (rec:0.909);
+2019-05-03 04:05:24,116 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 04:05:24,116 Validation: epoch 188 took 15.7 train loss 1.289 (rec:0.909); valid: 0.908; min valid loss: 0.908 (train: 0.909, test: 0.911) at epoch: 188; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 04:05:32,267 Training: epoch 189 took 8.1 train loss 1.289 (rec:0.909);
+2019-05-03 04:05:39,847 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 04:05:39,848 Validation: epoch 189 took 15.7 train loss 1.289 (rec:0.909); valid: 0.908; min valid loss: 0.908 (train: 0.909, test: 0.911) at epoch: 189; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 04:05:48,012 Training: epoch 190 took 8.1 train loss 1.289 (rec:0.909);
+2019-05-03 04:05:55,636 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 04:05:55,636 Validation: epoch 190 took 15.7 train loss 1.289 (rec:0.909); valid: 0.908; min valid loss: 0.908 (train: 0.909, test: 0.911) at epoch: 190; test loss: 0.911 (best test: 0.911 with val 0.908).
+2019-05-03 04:05:56,257 Model saved in file: scratch/checkpoints/movielens/douban_checkpt_ep_00190.ckpt
+2019-05-03 04:06:04,325 Training: epoch 191 took 8.1 train loss 1.289 (rec:0.909);
+2019-05-03 04:06:11,878 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 04:06:11,878 Validation: epoch 191 took 15.6 train loss 1.289 (rec:0.909); valid: 0.908; min valid loss: 0.908 (train: 0.909, test: 0.91) at epoch: 191; test loss: 0.910 (best test: 0.910 with val 0.908).
+2019-05-03 04:06:20,044 Training: epoch 192 took 8.1 train loss 1.288 (rec:0.909);
+2019-05-03 04:06:27,672 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 04:06:27,672 Validation: epoch 192 took 15.7 train loss 1.288 (rec:0.909); valid: 0.907; min valid loss: 0.907 (train: 0.909, test: 0.91) at epoch: 192; test loss: 0.910 (best test: 0.910 with val 0.907).
+2019-05-03 04:06:35,807 Training: epoch 193 took 8.1 train loss 1.288 (rec:0.909);
+2019-05-03 04:06:43,384 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 04:06:43,384 Validation: epoch 193 took 15.6 train loss 1.288 (rec:0.909); valid: 0.907; min valid loss: 0.907 (train: 0.909, test: 0.91) at epoch: 193; test loss: 0.910 (best test: 0.910 with val 0.907).
+2019-05-03 04:06:51,539 Training: epoch 194 took 8.1 train loss 1.288 (rec:0.909);
+2019-05-03 04:06:59,090 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 04:06:59,091 Validation: epoch 194 took 15.6 train loss 1.288 (rec:0.909); valid: 0.907; min valid loss: 0.907 (train: 0.909, test: 0.91) at epoch: 194; test loss: 0.910 (best test: 0.910 with val 0.907).
+2019-05-03 04:07:07,191 Training: epoch 195 took 8.0 train loss 1.288 (rec:0.908);
+2019-05-03 04:07:14,818 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 04:07:14,818 Validation: epoch 195 took 15.7 train loss 1.288 (rec:0.908); valid: 0.907; min valid loss: 0.907 (train: 0.908, test: 0.91) at epoch: 195; test loss: 0.910 (best test: 0.910 with val 0.907).
+2019-05-03 04:07:22,913 Training: epoch 196 took 8.0 train loss 1.288 (rec:0.908);
+2019-05-03 04:07:30,438 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 04:07:30,438 Validation: epoch 196 took 15.5 train loss 1.288 (rec:0.908); valid: 0.907; min valid loss: 0.907 (train: 0.908, test: 0.91) at epoch: 196; test loss: 0.910 (best test: 0.910 with val 0.907).
+2019-05-03 04:07:38,583 Training: epoch 197 took 8.1 train loss 1.288 (rec:0.908);
+2019-05-03 04:07:46,167 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 04:07:46,167 Validation: epoch 197 took 15.7 train loss 1.288 (rec:0.908); valid: 0.907; min valid loss: 0.907 (train: 0.908, test: 0.91) at epoch: 197; test loss: 0.910 (best test: 0.910 with val 0.907).
+2019-05-03 04:07:54,225 Training: epoch 198 took 8.0 train loss 1.288 (rec:0.908);
+2019-05-03 04:08:01,835 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 04:08:01,835 Validation: epoch 198 took 15.6 train loss 1.288 (rec:0.908); valid: 0.907; min valid loss: 0.907 (train: 0.908, test: 0.91) at epoch: 198; test loss: 0.910 (best test: 0.910 with val 0.907).
+2019-05-03 04:08:09,990 Training: epoch 199 took 8.1 train loss 1.288 (rec:0.908);
+2019-05-03 04:08:17,643 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 04:08:17,643 Validation: epoch 199 took 15.7 train loss 1.288 (rec:0.908); valid: 0.906; min valid loss: 0.906 (train: 0.908, test: 0.909) at epoch: 199; test loss: 0.909 (best test: 0.909 with val 0.906).
+2019-05-03 04:08:25,861 Training: epoch 200 took 8.1 train loss 1.287 (rec:0.908);
+2019-05-03 04:08:33,482 Model saved in file: scratch/checkpoints/movielens/douban_best.ckpt
+2019-05-03 04:08:33,482 Validation: epoch 200 took 15.8 train loss 1.287 (rec:0.908); valid: 0.906; min valid loss: 0.906 (train: 0.908, test: 0.909) at epoch: 200; test loss: 0.909 (best test: 0.909 with val 0.906).
+2019-05-03 04:08:34,111 Model saved in file: scratch/checkpoints/movielens/douban_checkpt_ep_00200.ckpt
+2019-05-03 04:08:34,111 Training failed
+Traceback (most recent call last):
+  File "douban.py", line 610, in main
+    np.save(os.path.join('output', 'douban_train_loss.npy'), saved_tr_loss)
+NameError: name 'os' is not defined

@@ -1,0 +1,78 @@
+Name: Yeshu Li NetID: yli299
+Name: Yang Hao NetID: yhao5
+
+This is the code repository for the CS 582 research project.
+
+Before running the code, please download the datasets and put them in the 'data' directory in the root directory and directory for each method:
+
+https://github.com/riannevdberg/gc-mc/tree/master/gcmc/data/yahoo_music
+https://github.com/riannevdberg/gc-mc/tree/master/gcmc/data/douban
+https://grouplens.org/datasets/movielens/1m/
+
+
+
+Factorization Machines (FMs):
+
+Requirements:
+Python 3
+h5py
+sklearn
+pyfm
+
+Installation:
+pip install git+https://github.com/DanielLeee/pyFM
+
+Run on the Yahoo dataset:
+python3 fm.py yahoo_music
+
+Run on the Douban dataset:
+python3 fm.py douban
+
+Run on the ML-1M dataset:
+python3 fm.py ml-1m
+
+
+
+Graph Convolutional Matrix Completion (GCMC):
+
+Requirements:
+Python 2
+TensorFlow
+Scipy
+
+Installation:
+python setup.py install
+
+Run on the Yahoo dataset:
+python train.py -d yahoo_music --accum stack -do 0.7 -nleft -nb 2 -e 1000 --features --feat_hidden 64 --testing
+
+Run on the Douban dataset:
+python train.py -d douban --accum stack -do 0.7 -nleft -nb 2 -e 1000 --features --feat_hidden 64 --testing 
+
+Run on the ML-1M dataset:
+python train.py -d ml_1m --data_seed 1234 --accum sum -do 0.7 -nsym -nb 2 -e 1000 --testing
+
+
+
+Factorized Exchangeable Auto-encoder (FEA):
+
+Requirements:
+Python 3
+TensorFlow
+tqdm
+Scipy
+
+Installation:
+No installation required.
+
+Run on the Yahoo dataset:
+python3 yahoomusic.py
+
+Run on the Douban dataset:
+python3 douban.py
+
+Run on the ML-1M dataset:
+python3 sparse_factorized_autoencoder.py
+
+
+
